@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.App{
+  /* background-image: url(./assets/currency.jpg); */
+  background-repeat:no-repeat ;
+  background-image: linear-gradient(rgb(83, 76, 141), rgb(234, 240, 241));
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ /* text-align: center; */
+ display: flex;
+ justify-content:center ;
+ align-items: center;
+}

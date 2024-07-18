@@ -1,0 +1,120 @@
+
+.container {
+    width: 1200px;
+    height: 300px;
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* box-shadow: 0 0 50px rgba(219, 214, 214, 0.1); */
+
+}
+
+.title {
+     padding: 0 0 0 50px; 
+    margin-bottom:20px;
+
+}
+
+.main-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin: 0 50px 0 50px;
+
+
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.amount input{
+    width: 300px;
+    height: 30px;
+
+    
+}
+
+.amount p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.from-currency {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.from-currency p {
+    margin: 0;
+    font-size: 25px;
+
+}
+
+.from-currency select{
+    width: 308px;
+    height: 36px;
+}
+
+
+
+.to-currency {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.to-currency p {
+    margin: 0;
+    font-size: 25px;
+
+}
+
+.to-currency select{
+    width: 308px;
+    height: 36px;
+}
+
+.svg-button {
+    align-self: flex-end;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 0cap;
+    cursor: pointer;
+}
+
+.convert{
+    display: flex;
+    margin: 25px 50px 0 50px;
+    justify-content: flex-end;
+}
+
+.convert-button{
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(43, 111, 189);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin: 25px 0 0 50px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+ 
+
+
+  
