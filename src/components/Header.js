@@ -2,10 +2,6 @@ import React, { useState } from 'react'
 import "../css/Header.css"
 
 const Header = (props) => {
-
-  
-
-
     const {amount,fromCurrency,sum,toCurrency} = props
   return (
     <div>
