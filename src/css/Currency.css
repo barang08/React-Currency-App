@@ -1,21 +1,17 @@
-
 .container {
     width: 1200px;
     height: 300px;
-    
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* box-shadow: 0 0 50px rgba(219, 214, 214, 0.1); */
-
 }
 
 .title {
-     padding: 0 0 0 50px; 
-    margin-bottom:20px;
-
+    padding: 0 0 0 50px;
+    margin-bottom: 20px;
 }
 
 .main-area {
@@ -24,8 +20,6 @@
     justify-content: flex-start;
     gap: 3rem;
     margin: 0 50px 0 50px;
-
-
 }
 
 .amount {
@@ -35,11 +29,9 @@
     gap: 0.5rem;
 }
 
-.amount input{
+.amount input {
     width: 300px;
     height: 30px;
-
-    
 }
 
 .amount p {
@@ -57,15 +49,12 @@
 .from-currency p {
     margin: 0;
     font-size: 25px;
-
 }
 
-.from-currency select{
+.from-currency select {
     width: 308px;
     height: 36px;
 }
-
-
 
 .to-currency {
     display: flex;
@@ -80,7 +69,7 @@
 
 }
 
-.to-currency select{
+.to-currency select {
     width: 308px;
     height: 36px;
 }
@@ -94,13 +83,13 @@
     cursor: pointer;
 }
 
-.convert{
+.convert {
     display: flex;
     margin: 25px 50px 0 50px;
     justify-content: flex-end;
 }
 
-.convert-button{
+.convert-button {
     padding: 15px 40px 15px 40px;
     background-color: rgb(43, 111, 189);
     cursor: pointer;
@@ -112,9 +101,4 @@
     margin: 25px 0 0 50px;
     display: flex;
     justify-content: flex-end;
-    
 }
- 
-
-
-  
